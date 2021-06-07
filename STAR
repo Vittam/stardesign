@@ -1,0 +1,17 @@
+"Designed By Vittam"
+
+import turtle
+
+col=('pink','purple','white','orange','blue','red')
+t=turtle.Turtle()
+screen=turtle.Screen()
+screen=turtle.bgcolor('black')
+t.speed(20)
+
+for i in range(100):
+
+    t.color(col[i%6])
+    t.forward(i*4)
+    t.left(150)
+    t.width(2)
+turtle.done()
